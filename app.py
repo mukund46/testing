@@ -6,7 +6,7 @@ from diffusers import StableDiffusionXLPipeline, DPMSolverMultistepScheduler
 st.set_page_config(page_title="Juggernaut XL v9 Image Generator", layout="centered")
 st.title("🎨 Juggernaut XL v9 Image Generator")
 
-HF_TOKEN = os.environ.get("HF_TOKEN", None)
+HF_TOKEN = "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"
 MODEL_ID = "RunDiffusion/Juggernaut-XL-v9"
 
 @st.cache_resource(show_spinner=False)
